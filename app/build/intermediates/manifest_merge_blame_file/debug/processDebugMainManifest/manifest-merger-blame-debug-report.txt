@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.slats.game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="23"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <application
+11-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:2:5-18:19
+12        android:allowBackup="true"
+12-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:3:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+14-->INJECTED
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:4:9-43
+16        android:label="Slats"
+16-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:5:9-30
+17        android:roundIcon="@mipmap/ic_launcher"
+17-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:6:9-48
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:7:9-40
+20        <activity
+20-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:8:9-17:20
+21            android:name="com.slats.game.MainActivity"
+21-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:9:13-41
+22            android:configChanges="orientation|screenSize|keyboardHidden"
+22-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:10:13-74
+23            android:exported="true"
+23-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:11:13-36
+24            android:screenOrientation="portrait" >
+24-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:12:13-49
+25            <intent-filter>
+25-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:13:13-16:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:14:17-69
+26-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:14:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:15:17-77
+28-->/Users/ollie.ha/Desktop/youtube/Slats/app/src/main/AndroidManifest.xml:15:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

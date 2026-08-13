@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Slats — tap the moving white slats before they escape.">
+    <title>Slats</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="game" aria-label="Slats game">
+      <canvas id="game-canvas"></canvas>
+
+      <section id="start-screen" class="screen" aria-labelledby="game-title">
+        <h1 id="game-title">SLATS</h1>
+        <button id="start-button" type="button">Tap to Start</button>
+      </section>
+
+      <section id="game-over-screen" class="screen" aria-labelledby="game-over-title" hidden>
+        <h2 id="game-over-title">GAME OVER</h2>
+        <p id="final-score">Score: 0</p>
+        <button id="restart-button" type="button">Tap to Restart</button>
+      </section>
+
+      <p id="score" aria-live="polite" hidden>Score: 0</p>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>

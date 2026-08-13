@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.slats.game.test" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="37" />
+
+    <instrumentation
+        android:name="androidx.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.slats.game"
+        android:targetPackage="com.slats.game" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false" />
+
+</manifest>

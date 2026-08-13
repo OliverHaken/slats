@@ -1,0 +1,3 @@
+com.slats.game
+mipmap ic_launcher
+style AppTheme

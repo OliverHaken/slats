@@ -1,0 +1,5 @@
+com.slats.game.test.app-updated_navigation_xml-0 /Users/Alexander/Repositories/Firework_Game_slats/android/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.slats.game.test.app-packageDebugAndroidTestResources-1 /Users/Alexander/Repositories/Firework_Game_slats/android/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/merged.dir
+com.slats.game.test.app-packageDebugAndroidTestResources-2 /Users/Alexander/Repositories/Firework_Game_slats/android/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/stripped.dir
+com.slats.game.test.app-debugAndroidTest-3 /Users/Alexander/Repositories/Firework_Game_slats/android/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+gradleHome-0 /Users/Alexander/.gradle
